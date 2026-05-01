@@ -1,0 +1,37 @@
+{
+  "name": "camalor",
+  "version": "0.1.0",
+  "description": "Template-based terminal coloring with custom color registration",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "bun run --watch src/index.ts"
+  },
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "keywords": [
+    "terminal",
+    "color",
+    "chalk",
+    "logger",
+    "bun"
+  ],
+  "author": "Kila.js",
+  "license": "MIT"
+}
