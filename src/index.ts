@@ -1,10 +1,3 @@
-import { DEFAULT_COLORS } from "./constants"
+import { camalor } from "./core";
 
-type Segment = {
-  text: string;
-  color: string;
-  style: {
-    bold: boolean;
-    
-  }
-};
+console.log(camalor.red("Hello"));

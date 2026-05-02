@@ -1,1 +1,1 @@
-export * from "./default-colors";
+export * from "./style-constants";

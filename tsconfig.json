@@ -22,7 +22,7 @@
     "noPropertyAccessFromIndexSignature": false,
 
     "paths": {
-      "@camalor": ["./src"]
+      "@camalor/*": ["./src/*"]
     }
   },
   "include": ["src/**/*"],
